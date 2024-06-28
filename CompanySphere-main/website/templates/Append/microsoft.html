@@ -1,0 +1,1332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="static/img/favicon.png" rel="icon" sizes="16x16" type="image/png">
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>MICROSOFT</title>
+  <link rel="stylesheet" href="static/fontawesome-5.5/css2/all.min.css" />
+  <link rel="stylesheet" href="static/slick/slick.css">
+  <link rel="stylesheet" href="static/slick/slick-theme.css">
+  <link rel="stylesheet" href="static/magnific-popup/magnific-popup.css">
+  <link rel="stylesheet" href="static/css1/bootstrap.min.css" />
+  <link rel="stylesheet" href="static/css1/templatemo-style.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+
+  <link href="static/img/favicon.png" rel="icon" sizes="16x16" type="image/png">
+  <link href="static/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="static/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="static/vendor/aos/aos.css" rel="stylesheet">
+  <style>
+    
+    .section-title {
+      color: rgb(199, 71, 71);
+      font-weight: bold;
+      margin-top: 20px;
+      /* Space before each section title */
+    }
+
+    .section-content {
+      margin-bottom: 20px;
+      /* Space after each section content */
+    }
+    
+      /* Reset styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+  
+      body {
+        font-family: 'Arial', sans-serif;
+        line-height: 1.6;
+        background-color: #f8f9fa;
+        color: #292727;
+      }
+  
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+  
+      /* Navigation bar styles */
+      .navbar {
+        background-color: #333;
+        color: #fff;
+        overflow: hidden;
+      }
+  
+      .navbar a {
+        float: left;
+        display: block;
+        color: #fff;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+        font-size: 18px;
+      }
+  
+      .navbar a:hover {
+        background-color: #555;
+      }
+  
+      /* Hero section styles */
+      .hero {
+        background-color: #fff;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        margin-bottom: 40px;
+        text-align: center;
+      }
+  
+      .hero h1 {
+        font-size: 36px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 20px;
+      }
+  
+      .hero p {
+        font-size: 18px;
+        color: #666;
+        line-height: 1.8;
+      }
+  
+      .logo {
+        display: block;
+        margin: 0 auto;
+        border-radius: 10px;
+        border: 5px solid #e74c3c;
+        margin-bottom: 20px;
+        width: 300px; /* Adjust the width as needed */
+        height: auto; /* Maintain aspect ratio */
+      }
+  
+      /* Color list styles */
+      .color-list {
+        list-style: none;
+        padding-left: 0;
+        margin-left: 0.5cm;
+      }
+  
+      .color-list li {
+        background-color: #f0f0f0;
+        border: 1px solid #ddd;
+        padding: 15px;
+        margin-bottom: 10px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        color: #555;
+      }
+  
+      .color-list li:first-child {
+        margin-top: 0;
+      }
+  
+      .color-list li:last-child {
+        margin-bottom: 0;
+      }
+  
+      /* Section title styles */
+      .section-title {
+        font-size: 28px;
+        font-weight: bold;
+        color: #e74c3c;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+  
+      /* Content container styles */
+      .content-container {
+        margin-bottom: 20px;
+      }
+  
+      .content-container p {
+        margin-bottom: 10px;
+      }
+      .navbar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+        z-index: 1000;
+      }
+      .social-media-links {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+      }
+      .social-media-links li {
+        margin: 0 10px;
+      }
+      .social-media-links a {
+        color: #333;
+        font-size: 24px;
+        text-decoration: none;
+      }
+      .social-media-links a:hover {
+        color: #007bff;
+      }
+      .tm-section-pad-top {
+        padding-top: 20px;
+      }
+      .tm-container-gallery {
+        padding: 0 15px;
+      }
+      .tm-gallery-container {
+        margin: 0 auto;
+        padding: 0;
+      }
+      .tm-gallery-item {
+        margin-bottom: 10px;
+      }
+      .effect-honey img {
+        display: block;
+        margin: 0 auto;
+      }
+      .tm-gallery-item figcaption {
+        text-align: center;
+      }
+  
+  </style>
+
+  <!--
+	The Town
+	https://templatemo.com/tm-525-the-town
+	-->
+</head>
+
+<body>
+  <!-- Hero section -->
+
+
+ <!-- Navigation bar -->
+ <div class="navbar">
+  <a href="#introduction">Introduction</a>
+  <a href="#Mission">Mission and Vision</a>
+  <a href="#location">Location</a>
+  <a href="#global">Global Presence</a>
+  <a href="#pands">Services</a>
+  <a href="#innovations">Innovation</a>
+  <a href="#env">Culture</a>
+  <a href="#news">Updates</a>
+  <a href="#contact">contact</a>
+</div>
+
+<div class="container">
+  <!-- Hero section -->
+  <div class="hero">
+    <br>
+    <br>
+    <br>
+    
+    <h1>The MICROSOFT</h1>
+    <p>LOGO</p>
+    <img src="static/img1/microsoft_logo.jpg" class="logo" />
+    <p>The Microsoft logo is made up of four colors: blue, green, yellow, and red, each representing a different
+      product or service:</p>
+    <ul class="color-list">
+      <li>Red: Represents Microsoft's hardware products, such as Surface.</li>
+      <li>Green: Represents Xbox, Microsoft's gaming brand.</li>
+      <li>Yellow: Represents Office, which includes a suite of productivity tools such as Word, Excel, and PowerPoint.
+      </li>
+      <li>Blue: Represents Windows, the operating system that is the core product of Microsoft.</li>
+    </ul>
+  </div>
+
+</div>
+
+  </section>
+  <section id="introduction" class="tm-section-pad-top">
+    <div class="container">
+
+      <div>
+        <center><h2 class="tm-text-primary mb-4 tm-section-title" style="color:rgb(179, 73, 73)"><b>Introduction</b></h2></center>
+        <p class="mb-4 tm-intro-text">
+        <div>
+          {% for micro in data %}
+          <div class="content-container">
+            <p style="margin-bottom: 10px;">{{ micro.Microsoft }}</p>
+            <p style="margin-bottom: 10px;">{{ micro.Company_Overview }}</p>
+            <p style="margin-bottom: 10px;">{{ micro.Founders_and_Early_Days }}</p>
+            <p style="margin-bottom: 10px;">{{ micro.Core_Business_Areas }}</p>
+            <p style="margin-bottom: 10px;">{{ micro.Beyond_Software }}</p>
+            <p style="margin-bottom: 10px;">{{ micro.A_Legacy_of_Innovation }}</p>
+
+          </div>
+          {% endfor %}
+        </div>
+        </p>
+      </div>
+    </div>
+    </div>
+    
+  </section>
+  <section id="Mission" class="tm-section-pad-top">
+    <div class="container">
+      <div>
+        <center><h2 class="tm-text-primary mb-4 tm-section-title" style="color:rgb(179, 73, 73)"><b>Mission and Vision</b></h2></center>
+        <p class="mb-4 tm-intro-text">
+        <div>
+          {% for micro in data %}
+          <div class="content-container">
+            <p style=" line-height: 1.6; color: #333; margin-bottom: 10px;">{{ micro.Empowering_others }}</p>
+
+          </div>
+          {% endfor %}
+        </div>
+        </p>
+      </div>
+    </div>
+    </div>
+    <div>
+    </div>
+  </section>
+  <section id="location" class="tm-section-pad-top">
+    <div class="container">
+      <div>
+        <center><h2 class="tm-text-primary mb-4 tm-section-title" style="color:rgb(179, 73, 73)"><b>Location of Headquarters</b></h2></center>
+        <p class="mb-4 tm-intro-text">
+        <div>
+          <div class="content-container">
+            <p style=" line-height: 1.6; color: #333; margin-bottom: 20px; text-align: justify;">
+              The main campus for the Microsoft headquarters is located in Redmond, Washington. The headquarters is home to thousands of workers. Of the 59,000 employees in the United States, more than 42,000 call Washington state home.
+              <br>
+              The official address for Microsoft headquarters is:<br>
+              Microsoft Headquarters<br>
+              One Microsoft Way<br>
+              Redmond, WA 98052
+          </p>
+          
+          </div>
+        </div>
+        </p>
+      </div>
+    </div>
+    </div>
+    
+  </section>
+  <section id="global" class="tm-section-pad-top">
+    <div class="container">
+      <div>
+        <center><h2 class="tm-text-primary mb-4 tm-section-title" style="color:rgb(179,73,73)"><b>Global presence</b></h2></center>
+        <p class="mb-4 tm-intro-text">
+        <div>
+          {% for micro in data %}
+          <div class="content-container">
+            <p style="line-height: 1.6; color: #333; margin-bottom: 20px;">{{ micro.Regional_Offices }}</p>
+            <p style="line-height: 1.6; color: #333; margin-bottom: 20px;">{{ micro.North_America }}</p>
+            <p style="line-height: 1.6; color: #333; margin-bottom: 20px;">{{ micro.Europe }}</p>
+            <p style="line-height: 1.6; color: #333; margin-bottom: 20px;">{{ micro.Asia_Pacific }}</p>
+            <p style="line-height: 1.6; color: #333; margin-bottom: 20px;">{{ micro.Latin_America }}</p>
+            <p style="line-height: 1.6; color: #333; margin-bottom: 20px;">{{ micro.Middle_East_and_Africa }}</p>
+
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      </p>
+    </div>
+    </div>
+    
+  </section>
+  <section id="pands" class="tm-section-pad-top">
+    <div>
+        <h2 class="tm-text-primary mb-4 tm-section-title" style="color: rgb(179,73,73); margin-bottom: 20px;"><b>Products and services:</b></h2>
+        <div style="line-height: 1.6; color: #333; margin-bottom: 20px;">
+            Microsoft offers a wide range of products and services that cater to various segments, including consumers, businesses, developers, and educational institutions. Here’s a comprehensive overview of Microsoft’s major products and services:
+        </div>
+
+        <h3 style="font-weight: bold; margin-bottom: 10px; color: rgb(179,73,73)">Software Products:</h3>
+
+        <div>
+            <h5 style="font-weight: bold; margin-bottom: 20px; color: rgb(179,73,73)">Operating Systems:</h5>
+            {% for micro in data %}
+            <div class="content-container">
+                <p style="color: rgb(71, 62, 62); font-size: 20px; margin-bottom: 5px; font-weight: bold;">{{ micro.name }}</p>
+                <p style="color: #333; margin-bottom: 20px;">{{ micro.description }}</p>
+            </div>
+            {% endfor %}
+        </div>
+
+        <h5 style="font-weight: bold; margin-bottom: 10px; color: rgb(179,73,73)">Developer Tools:</h5>
+        <div>
+            {% for micro in data %}
+            <div class="content-container">
+                <p style="color: rgb(71, 62, 62); margin-bottom: 15px; font-weight: bold;">{{ micro.name5 }}</p>
+                <p style="color: #333; margin-bottom: 15px;">{{ micro.description5 }}</p>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div>
+            {% for micro in data %}
+            <div class="content-container">
+                <p style="line-height: 1.6; color: #333; margin-bottom: 15px; font-weight: bold;">{{ micro.name6 }}</p>
+                <p style="line-height: 1.6; color: #333; margin-bottom: 15px;">{{ micro.description6 }}</p>
+            </div>
+            {% endfor %}
+        </div>
+
+        <h3 style="font-weight: bold; margin-bottom: 10px; color:rgb(179,73,73)">Cloud Services:</h3>
+        <div>
+            {% for micro in data %}
+            <div class="content-container">
+                <p style="line-height: 1.6; color: #333; margin-bottom: 15px; font-weight: bold;">{{ micro.name7 }}</p>
+                <p style="line-height: 1.6; color: #333; margin-bottom: 15px;">{{ micro.description7 }}</p>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div>
+            {% for micro in data %}
+            <div class="content-container">
+                <p style="line-height: 1.6; color: #333; margin-bottom: 15px; font-weight: bold;">{{ micro.name8 }}</p>
+                <p style="line-height: 1.6; color: #333; margin-bottom: 15px;">{{ micro.description8 }}</p>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div>
+            {% for micro in data %}
+            <div class="content-container">
+                <p style="line-height: 1.6; color: #333; margin-bottom: 15px; font-weight: bold;">{{ micro.name9 }}</p>
+                <p style="line-height: 1.6; color: #333; margin-bottom: 15px;">{{ micro.description9 }}</p>
+            </div>
+            {% endfor %}
+        </div>
+
+        <h3 style="font-weight: bold; margin-bottom: 10px; color:rgb(179,78,78)">Hardware Products:</h3>
+        <h5><p style="font-weight: bold; margin-bottom: 5px; color: rgb(179,78,78)">Surface Devices:</h5></p>
+        <div>
+            {% for micro in data %}
+            <div class="content-container">
+                <p style="line-height: 1.6; color: #333; margin-bottom: 15px; font-weight: bold;">{{ micro.name10 }}</p>
+                <p style="line-height: 1.6; color: #333; margin-bottom: 15px;">{{ micro.description10 }}</p>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div>
+            {% for micro in data %}
+            <div class="content-container">
+                <p style="line-height: 1.6; color: #333; margin-bottom: 15px; font-weight: bold;">{{ micro.name11 }}</p>
+                <p style="line-height: 1.6; color: #333; margin-bottom: 15px;">{{ micro.description11 }}</p>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div>
+            {% for micro in data %}
+            <div class="content-container">
+                <p style="line-height: 1.6; color: #333; margin-bottom: 15px; font-weight: bold;">{{ micro.name12 }}</p>
+                <p style="line-height: 1.6; color: #333; margin-bottom: 15px;">{{ micro.description12 }}</p>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div>
+            {% for micro in data %}
+            <div class="content-container">
+                <p style="line-height: 1.6; color: #333; margin-bottom: 15px; font-weight: bold;">{{ micro.name13 }}</p>
+                <p style="line-height: 1.6; color: #333; margin-bottom: 15px;">{{ micro.description13 }}</p>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div>
+            {% for micro in data %}
+            <div class="content-container">
+                <p style="line-height: 1.6; color: #333; margin-bottom: 15px; font-weight: bold;">{{ micro.name14 }}</p>
+                <p style="line-height: 1.6; color: #333; margin-bottom: 15px;">{{ micro.description14 }}</p>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div>
+            {% for micro in data %}
+            <div class="content-container">
+                <p style="line-height: 1.6; color: #333; margin-bottom: 15px; font-weight: bold;">{{ micro.name15 }}</p>
+                <p style="line-height: 1.6; color: #333; margin-bottom: 15px;">{{ micro.description15 }}</p>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div>
+            {% for micro in data %}
+            <div class="content-container">
+                <p style="line-height: 1.6; color: #333; margin-bottom: 15px; font-weight: bold;">{{ micro.name16 }}</p>
+                <p style="line-height: 1.6; color: #333; margin-bottom: 15px;">{{ micro.description16 }}</p>
+            </div>
+            {% endfor %}
+        </div>
+
+        <h3 style="font-weight: bold; margin-bottom: 10px; color:rgb(179,73,73);">Online Services:</h3>
+        <div>
+            {% for micro in data %}
+            <div class="content-container">
+                <p style="line-height: 1.6; color: #333; margin-bottom: 15px; font-weight: bold;">{{ micro.name17 }}</p>
+                <p style="line-height: 1.6; color: #333; margin-bottom: 15px;">{{ micro.description17 }}</p>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div>
+            {% for micro in data %}
+            <div class="content-container">
+                <p style="line-height: 1.6; color: #333; margin-bottom: 15px; font-weight: bold;">{{ micro.name18 }}</p>
+                <p style="line-height: 1.6; color: #333; margin-bottom: 15px;">{{ micro.description18 }}</p>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div>
+            {% for micro in data %}
+            <div class="content-container">
+                <p style="line-height: 1.6; color: #333; margin-bottom: 15px; font-weight: bold;">{{ micro.name19 }}</p>
+                <p style="line-height: 1.6; color: #333; margin-bottom: 15px;">{{ micro.description19 }}</p>
+            </div>
+            {% endfor %}
+        </div>
+
+        <h3 style="font-weight: bold; margin-bottom: 10px; color: rgb(179,73,73);">Enterprise Services:</h3>
+        <div>
+            {% for micro in data %}
+            <div class="content-container">
+                <p style="line-height: 1.6; color: #333; margin-bottom: 15px; font-weight: bold;">{{ micro.name20 }}</p>
+                <p style="line-height: 1.6; color: #333; margin-bottom: 15px;">{{ micro.description20 }}</p>
+            </div>
+            {% endfor %}
+
+            <div>
+                {% for micro in data %}
+                <div class="content-container">
+                    <p style="line-height: 1.6; color: #333; margin-bottom: 15px; font-weight: bold;">{{ micro.name21 }}</p>
+                    <p style="line-height: 1.6; color: #333; margin-bottom: 15px;">{{micro.description21}}</p>
+                </div>
+                {% endfor %}
+            </div>
+
+            <div>
+                {% for micro in data %}
+                <div class="content-container">
+                    <p style="line-height: 1.6; color: #333; margin-bottom: 15px; font-weight: bold;">{{ micro.name22}}</p>
+                    <p style="line-height: 1.6; color: #333; margin-bottom: 15px;">{{micro.description22}}</p>
+                </div>
+                {% endfor %}
+            </div>
+
+            <div>
+                {% for micro in data %}
+                <div class="content-container">
+                    <p style="line-height: 1.6; color: #333; margin-bottom: 15px; font-weight: bold;">{{ micro.name23}}</p>
+                    <p style="line-height: 1.6; color: #333; margin-bottom: 15px;">{{micro.description23}}</p>
+                </div>
+                {% endfor %}
+            </div>
+
+            <div>
+                {% for micro in data %}
+                <div class="content-container">
+                    <p style="line-height: 1.6; color: #333; margin-bottom: 15px; font-weight: bold;">{{ micro.name24}}</p>
+                    <p style="line-height: 1.6; color: #333; margin-bottom: 15px;">{{micro.description24}}</p>
+                </div>
+                {% endfor %}
+            </div>
+
+            <div>
+                {% for micro in data %}
+                <div class="content-container">
+                    <p style="line-height: 1.6; color: #333; margin-bottom: 15px; font-weight: bold;">{{ micro.name25}}</p>
+                    <p style="line-height: 1.6; color: #333; margin-bottom: 15px;">{{micro.description25}}</p>
+                </div>
+                {% endfor %}
+            </div>
+
+            <div>
+                {% for micro in data %}
+                <div class="content-container">
+                    <p style="line-height: 1.6; color: #333; margin-bottom: 15px; font-weight: bold;">{{ micro.name26}}</p>
+                    <p style="line-height: 1.6; color: #333; margin-bottom: 15px;">{{micro.description26}}</p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <section id="innovations" class="tm-section-pad-top">
+      <div class="container">
+    
+        <h2 class="tm-text-primary mb-4 tm-section-title" style="color: rgb(179,73,73); text-align: center;"><b>Innovations:</b></h2>
+    
+        {% for micro in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ micro.technology1 }}</h5>
+          <p style="text-align: center;">{{ micro.descriptions1 }}</p>
+        </div>
+        {% endfor %}
+    
+        {% for micro in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ micro.technology2 }}</h5>
+          <p style="text-align: justify;">{{ micro.descriptions2 }}</p>
+        </div>
+        {% endfor %}
+    
+        {% for micro in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ micro.technology3 }}</h5>
+          <p style="text-align: justify;">{{ micro.descriptions3 }}</p>
+        </div>
+        {% endfor %}
+    
+        {% for micro in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ micro.technology4 }}</h5>
+          <p style="text-align: justify;">{{ micro.descriptions4 }}</p>
+        </div>
+        {% endfor %}
+    
+        {% for micro in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ micro.technology5 }}</h5>
+          <p style="text-align: justify;">{{ micro.descriptions5 }}</p>
+        </div>
+        {% endfor %}
+    
+        {% for micro in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ micro.technology6 }}</h5>
+          <p style="text-align: justify;">{{ micro.descriptions6 }}</p>
+        </div>
+        {% endfor %}
+    
+        {% for micro in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ micro.technology7 }}</h5>
+          <p style="text-align: justify;">{{ micro.descriptions7 }}</p>
+        </div>
+        {% endfor %}
+    
+        {% for micro in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ micro.technology8 }}</h5>
+          <p style="text-align: justify;">{{ micro.descriptions8 }}</p>
+        </div>
+        {% endfor %}
+    
+        {% for micro in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ micro.technology9 }}</h5>
+          <p style="text-align: justify;">{{ micro.descriptions9 }}</p>
+        </div>
+        {% endfor %}
+    
+        {% for micro in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ micro.technology10 }}</h5>
+          <p style="text-align: justify;">{{ micro.descriptions10 }}</p>
+        </div>
+        {% endfor %}
+    
+        {% for micro in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ micro.technology11 }}</h5>
+          <p style="text-align: justify;">{{ micro.descriptions11 }}</p>
+        </div>
+        {% endfor %}
+    
+        {% for micro in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ micro.technology12 }}</h5>
+          <p style="text-align: center;">{{ micro.descriptions12 }}</p>
+        </div>
+        {% endfor %}
+    
+        {% for micro in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ micro.technology13 }}</h5>
+          <p style="text-align: center;">{{ micro.descriptions13 }}</p>
+        </div>
+        {% endfor %}
+    
+        {% for micro in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ micro.technology14 }}</h5>
+          <p style="text-align: center;">{{ micro.descriptions14 }}</p>
+        </div>
+        {% endfor %}
+    
+        {% for micro in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ micro.technology15 }}</h5>
+          <p style="text-align: center;">{{ micro.descriptions15 }}</p>
+        </div>
+        {% endfor %}
+    
+        {% for micro in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ micro.technology16 }}</h5>
+          <p style="text-align: center;">{{ micro.descriptions16 }}</p>
+        </div>
+        {% endfor %}
+    
+        {% for micro in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ micro.technology17 }}</h5>
+          <p style="text-align: center;">{{ micro.descriptions17 }}</p>
+        </div>
+        {% endfor %}
+    
+        {% for micro in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ micro.technology18 }}</h5>
+          <p style="text-align: center;">{{ micro.descriptions18 }}</p>
+        </div>
+        {% endfor %}
+    
+        {% for micro in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ micro.technology19 }}</h5>
+          <p style="text-align: center;">{{ micro.descriptions19 }}</p>
+        </div>
+        {% endfor %}
+    
+        {% for micro in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ micro.technology20 }}</h5>
+          <p style="text-align: center;">{{ micro.descriptions20 }}</p>
+        </div>
+        {% endfor %}
+    
+        {% for micro in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ micro.technology21 }}</h5>
+          <p style="text-align: center;">{{ micro.descriptions21 }}</p>
+        </div>
+        {% endfor %}
+    
+        {% for micro in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ micro.technology22 }}</h5>
+          <p style="text-align: center;">{{ micro.descriptions22 }}</p>
+        </div>
+        {% endfor %}
+    
+        {% for micro in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ micro.technology23 }}</h5>
+          <p style="text-align: center;">{{ micro.descriptions23 }}</p>
+        </div>
+        {% endfor %}
+    
+        {% for micro in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ micro.technology24 }}</h5>
+          <p style="text-align: center;">{{ micro.descriptions24 }}</p>
+        </div>
+        {% endfor %}
+    
+        {% for micro in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ micro.technology25 }}</h5>
+          <p style="text-align: center;">{{ micro.descriptions25 }}</p>
+        </div>
+        {% endfor %}
+
+       
+</div>
+</section>    
+    <section id="env" class="tm-section-pad-top">
+      <div class="container">
+    
+        <div>
+          <h2 class="tm-text-primary mb-4 tm-section-title" style="color: rgb(179,73,73); text-align: left; margin-bottom: 20px;">Work Environment at Microsoft:</h2>
+    
+          <h5 class="tm-text-primary mb-4 tm-section-title" style="color: rgb(179,73,73); text-align: left;">Company Culture:</h5>
+    
+          <div>
+            {% for micro in data %}
+            <div class="content-container" style="margin-bottom: 20px;">
+              <h5 style="color: black; margin-bottom: 10px;">{{ micro.attribute1 }}</h5>
+              <p style="text-align: justify;">{{ micro.descriptionss1 }}</p>
+            </div>
+            {% endfor %}
+          </div>
+    
+          <div>
+            {% for micro in data %}
+            <div class="content-container" style="margin-bottom: 20px;">
+              <h5 style="color: black; margin-bottom: 10px;">{{ micro.attribute2 }}</h5>
+              <p style="text-align: justify;">{{ micro.descriptionss2 }}</p>
+            </div>
+            {% endfor %}
+          </div>
+    
+          <div>
+            {% for micro in data %}
+            <div class="content-container" style="margin-bottom: 20px;">
+              <h5 style="color: black; margin-bottom: 10px;">{{ micro.attribute3 }}</h5>
+              <p style="text-align: justify;">{{ micro.descriptionss3 }}</p>
+            </div>
+            {% endfor %}
+          </div>
+    
+          <div>
+            {% for micro in data %}
+            <div class="content-container" style="margin-bottom: 20px;">
+              <h5 style="color: black; margin-bottom: 10px;">{{ micro.attribute4 }}</h5>
+              <p style="text-align: justify;">{{ micro.descriptionss4 }}</p>
+            </div>
+            {% endfor %}
+          </div>
+    
+          <div>
+            {% for micro in data %}
+            <div class="content-container" style="margin-bottom: 20px;">
+              <h5 style="color: black; margin-bottom: 10px;">{{ micro.attribute5 }}</h5>
+              <p style="text-align: justify;">{{ micro.descriptionss5 }}</p>
+            </div>
+            {% endfor %}
+          </div>
+    
+        </div>
+    
+        <h4 class="tm-text-primary mb-4 tm-section-title" style="color: rgb(199, 71, 71); text-align: left; margin-bottom: 20px;">Work Environment:</h4>
+    
+        <div>
+          {% for micro in data %}
+          <div class="content-container" style="margin-bottom: 20px;">
+            <h5 style="color: black; margin-bottom: 10px;">{{ micro.attribute6 }}</h5>
+            <p style="text-align: justify;">{{ micro.descriptionss6 }}</p>
+          </div>
+          {% endfor %}
+        </div>
+    
+        <div>
+          {% for micro in data %}
+          <div class="content-container" style="margin-bottom: 20px;">
+            <h5 style="color: black; margin-bottom: 10px;">{{ micro.attribute7 }}</h5>
+            <p style="text-align: justify;">{{ micro.descriptionss7 }}</p>
+          </div>
+          {% endfor %}
+        </div>
+    
+        <div>
+          {% for micro in data %}
+          <div class="content-container" style="margin-bottom: 20px;">
+            <h5 style="color: black; margin-bottom: 10px;">{{ micro.attribute8 }}</h5>
+            <p style="text-align: justify;">{{ micro.descriptionss8 }}</p>
+          </div>
+          {% endfor %}
+        </div>
+    
+        <div>
+          {% for micro in data %}
+          <div class="content-container" style="margin-bottom: 20px;">
+            <h5 style="color: black; margin-bottom: 10px;">{{ micro.attribute9 }}</h5>
+            <p style="text-align: justify;">{{ micro.descriptionss9 }}</p>
+          </div>
+          {% endfor %}
+        </div>
+    
+        <div>
+          {% for micro in data %}
+          <div class="content-container" style="margin-bottom: 20px;">
+            <h5 style="color: black; margin-bottom: 10px;">{{ micro.attribute10 }}</h5>
+            <p style="text-align: justify;">{{ micro.descriptionss10 }}</p>
+          </div>
+          {% endfor %}
+        </div>
+    
+        <h3 class="tm-text-primary mb-4 tm-section-title" style="color: rgb(199, 71, 71); text-align: left; margin-bottom: 20px;">Employee Benefits:</h3>
+    
+        <div>
+          {% for micro in data %}
+          <div class="content-container" style="margin-bottom: 20px;">
+            <h5 style="color: black; margin-bottom: 10px;">{{ micro.benefitType1 }}</h5>
+            <p style="text-align: justify;">{{ micro.detailss1 }}</p>
+          </div>
+          {% endfor %}
+        </div>
+    
+        <div>
+          {% for micro in data %}
+          <div class="content-container" style="margin-bottom: 20px;">
+            <h5 style="color: black; margin-bottom: 10px;">{{ micro.benefitType2 }}</h5>
+            <p style="text-align: justify;">{{ micro.detailss2 }}</p>
+          </div>
+          {% endfor %}
+        </div>
+    
+        <div>
+          {% for micro in data %}
+          <div class="content-container" style="margin-bottom: 20px;">
+            <h5 style="color: black; margin-bottom: 10px;">{{ micro.benefitType3 }}</h5>
+            <p style="text-align: justify;">{{ micro.detailss3 }}</p>
+          </div>
+          {% endfor %}
+        </div>
+    
+        <div>
+          {% for micro in data %}
+          <div class="content-container" style="margin-bottom: 20px;">
+            <h5 style="color: black; margin-bottom: 10px;">{{ micro.benefitType4 }}</h5>
+            <p style="text-align: justify;">{{ micro.detailss4 }}</p>
+          </div>
+          {% endfor %}
+        </div>
+    
+        <div>
+          {% for micro in data %}
+          <div class="content-container" style="margin-bottom: 20px;">
+            <h5 style="color: black; margin-bottom: 10px;">{{ micro.benefitType5 }}</h5>
+            <p style="text-align: justify;">{{ micro.detailss5 }}</p>
+          </div>
+          {% endfor %}
+        </div>
+    
+        <div>
+          {% for micro in data %}
+          <div class="content-container" style="margin-bottom: 20px;">
+            <h5 style="color: black; margin-bottom: 10px;">{{ micro.benefitType6 }}</h5>
+            <p style="text-align: justify;">{{ micro.detailss6 }}</p>
+          </div>
+          {% endfor %}
+        </div>
+    
+        <div>
+          {% for micro in data %}
+          <div class="content-container" style="margin-bottom: 20px;">
+            <h5 style="color: black; margin-bottom: 10px;">{{ micro.benefitType7 }}</h5>
+            <p style="text-align: justify;">{{ micro.detailss7 }}</p>
+          </div>
+          {% endfor %}
+        </div>
+    
+      </div>
+    </section>
+    
+    <section id="values" class="tm-section-pad-top">
+      <div class="container">
+    
+        <div>
+          <h2 class="tm-text-primary mb-4 tm-section-title" style="color: rgb(199, 71, 71); margin-bottom: 20px;">Core Values at Microsoft</h2>
+          <h4 class="tm-text-primary mb-4 tm-section-title" style="color: rgb(199, 71, 71); margin-bottom: 10px;">Key Principles and Values:</h4>
+    
+          <div>
+            {% for micro in data %}
+            <div class="content-container" style="margin-bottom: 20px;">
+              <h5 style="color: black; margin-bottom: 10px;">{{ micro.core_value1 }}</h5>
+              <p style="margin-bottom: 10px;">{{ micro.explanation1 }}</p>
+            </div>
+            {% endfor %}
+          </div>
+    
+          <div>
+            {% for micro in data %}
+            <div class="content-container" style="margin-bottom: 20px;">
+              <h5 style="color: black; margin-bottom: 10px;">{{ micro.core_value2 }}</h5>
+              <p style="margin-bottom: 10px;">{{ micro.explanation2 }}</p>
+            </div>
+            {% endfor %}
+          </div>
+    
+          <div>
+            {% for micro in data %}
+            <div class="content-container" style="margin-bottom: 20px;">
+              <h5 style="color: black; margin-bottom: 10px;">{{ micro.core_value3 }}</h5>
+              <p style="margin-bottom: 10px;">{{ micro.explanation3 }}</p>
+            </div>
+            {% endfor %}
+          </div>
+    
+          <div>
+            {% for micro in data %}
+            <div class="content-container" style="margin-bottom: 20px;">
+              <h5 style="color: black; margin-bottom: 10px;">{{ micro.core_value4 }}</h5>
+              <p style="margin-bottom: 10px;">{{ micro.explanation4 }}</p>
+            </div>
+            {% endfor %}
+          </div>
+    
+          <div>
+            {% for micro in data %}
+            <div class="content-container" style="margin-bottom: 20px;">
+              <h5 style="color: black; margin-bottom: 10px;">{{ micro.core_value5 }}</h5>
+              <p style="margin-bottom: 10px;">{{ micro.explanation5 }}</p>
+            </div>
+            {% endfor %}
+          </div>
+    
+          <div>
+            {% for micro in data %}
+            <div class="content-container" style="margin-bottom: 20px;">
+              <h5 style="color: black; margin-bottom: 10px;">{{ micro.core_value6 }}</h5>
+              <p style="margin-bottom: 10px;">{{ micro.explanation6 }}</p>
+            </div>
+            {% endfor %}
+          </div>
+    
+          <div>
+            {% for micro in data %}
+            <div class="content-container" style="margin-bottom: 20px;">
+              <h5 style="color: black; margin-bottom: 10px;">{{ micro.core_value7 }}</h5>
+              <p style="margin-bottom: 10px;">{{ micro.explanation7 }}</p>
+            </div>
+            {% endfor %}
+          </div>
+    
+        </div>
+    
+      </div>
+    </section>
+    
+    <section id="news" class="tm-section-pad-top">
+      <div class="container">
+    
+        <div>
+          <h2 class="tm-text-primary mb-4 tm-section-title" style="color: rgb(179,73,73); margin-bottom: 20px;">Latest News :</h2>
+          <h2 class="tm-text-primary mb-4 tm-section-title" style="color: rgb(179,73,73); margin-bottom: 20px;">Recent News about Microsoft</h2>
+    
+          <div>
+            {% for micro in data %}
+            <div class="content-container" style="margin-bottom: 20px;">
+              <h5 style="color: black; margin-bottom: 10px;">{{ micro.topic1 }}</h5>
+              <p style="margin-bottom: 10px;">{{ micro.details1 }}</p>
+            </div>
+            {% endfor %}
+          </div>
+    
+          <div>
+            {% for micro in data %}
+            <div class="content-container" style="margin-bottom: 20px;">
+              <h5 style="color: black; margin-bottom: 10px;">{{ micro.topic2 }}</h5>
+              <p style="margin-bottom: 10px;">{{ micro.details2 }}</p>
+            </div>
+            {% endfor %}
+          </div>
+    
+          <div>
+            {% for micro in data %}
+            <div class="content-container" style="margin-bottom: 20px;">
+              <h5 style="color: black; margin-bottom: 10px;">{{ micro.topic3 }}</h5>
+              <p style="margin-bottom: 10px;">{{ micro.details3 }}</p>
+            </div>
+            {% endfor %}
+          </div>
+    
+          <div>
+            {% for micro in data %}
+            <div class="content-container" style="margin-bottom: 20px;">
+              <h5 style="color: black; margin-bottom: 10px;">{{ micro.topic4 }}</h5>
+              <p style="margin-bottom: 10px;">{{ micro.details4 }}</p>
+            </div>
+            {% endfor %}
+          </div>
+    
+          <div>
+            {% for micro in data %}
+            <div class="content-container" style="margin-bottom: 20px;">
+              <h5 style="color: black; margin-bottom: 10px;">{{ micro.topic5 }}</h5>
+              <p style="margin-bottom: 10px;">{{ micro.details5 }}</p>
+            </div>
+            {% endfor %}
+          </div>
+    
+          <div>
+            {% for micro in data %}
+            <div class="content-container" style="margin-bottom: 20px;">
+              <h5 style="color: black; margin-bottom: 10px;">{{ micro.topic6 }}</h5>
+              <p style="margin-bottom: 10px;">{{ micro.details6 }}</p>
+            </div>
+            {% endfor %}
+          </div>
+    
+          <div>
+            {% for micro in data %}
+            <div class="content-container" style="margin-bottom: 20px;">
+              <h5 style="color: black; margin-bottom: 10px;">{{ micro.topic7 }}</h5>
+              <p style="margin-bottom: 10px;">{{ micro.details7 }}</p>
+            </div>
+            {% endfor %}
+          </div>
+    
+          <div>
+            {% for micro in data %}
+            <div class="content-container" style="margin-bottom: 20px;">
+              <h5 style="color: black; margin-bottom: 10px;">{{ micro.topic8 }}</h5>
+              <p style="margin-bottom: 10px;">{{ micro.details8 }}</p>
+            </div>
+            {% endfor %}
+          </div>
+    
+        </div>
+    
+      </div>
+    </section>
+    <section id="contact" class="text-center">
+      <h1>Microsoft Social Media Links</h1>
+      <ul class="social-media-links">
+        <li><a href="https://www.instagram.com/microsoft" target="_blank"><i class="bi bi-instagram"></i></a></li>
+        <li><a href="https://www.facebook.com/Microsoft" target="_blank"><i class="bi bi-facebook"></i></a></li>
+        <li><a href="https://twitter.com/Microsoft" target="_blank"><i class="bi bi-twitter"></i></a></li>
+        <li><a href="https://www.linkedin.com/company/microsoft" target="_blank"><i class="bi bi-linkedin"></i></a></li>
+        <li><a href="https://www.youtube.com/user/microsoft" target="_blank"><i class="bi bi-youtube"></i></a></li>
+      </ul>
+    </section>
+  
+    <section id="work" class="tm-section-pad-top">
+      <div class="container tm-container-gallery">
+        <div class="row">
+          <div class="text-center col-12">
+            <h2 style="color:rgb(179, 73, 73)">Evolution of Microsoft Logo</h2>
+            <p style="color: rgb(26, 25, 25); font-size: 18px; font-family: 'Trebuchet MS', sans-serif;">
+              "Over the course of 37 years, Microsoft has had five corporate logos. They changed quickly in the early years, but then the company held steady from 1987 until -- today. Ahead of a big wave of major product rollouts this fall, including Windows 8, Windows Phone 8, the Surface tablet, and the next version of Office, Microsoft has updated its logo once again, after 25 years of holding steady."
+            </p>
+          </div>            
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="mx-auto tm-gallery-container">
+              <div class="grid tm-gallery">
+                <a href="static/img1/m_11.png">
+                  <figure class="effect-honey tm-gallery-item">
+                    <img src="static/img1/m_11.png" alt="Image" style="border-radius: 3px; border: 3px solid rgb(228, 96, 96);" height="160" width="500">
+                    <figcaption>
+                      <h2><i>1975 <span> to </span> 1979</i></h2>
+                    </figcaption>
+                  </figure>
+                </a>
+                <a href="static/img1/m_2.png">
+                  <figure class="effect-honey tm-gallery-item">
+                    <img src="static/img1/m_2.png" alt="Image" style="border-radius: 3px; border: 3px solid rgb(228, 96, 96);" height="160" width="310">
+                    <figcaption>
+                      <h2><i>1980 <span> to </span> 1982</i></h2>
+                    </figcaption>
+                  </figure>
+                </a>
+                <a href="static/img1/m_3.png">
+                  <figure class="effect-honey tm-gallery-item">
+                    <img src="static/img1/m_3.png" alt="Image" style="border-radius: 3px; border: 3px solid rgb(228, 96, 96);" height="160" width="310">
+                    <figcaption>
+                      <h2><i>1982 <span> to </span> 1986</i></h2>
+                    </figcaption>
+                  </figure>
+                </a>
+                <a href="static/img1/m_4.png">
+                  <figure class="effect-honey tm-gallery-item">
+                    <img src="static/img1/m_4.png" alt="Image" style="border-radius: 3px; border: 3px solid rgb(228, 96, 96);" height="160" width="310">
+                    <figcaption>
+                      <h2><i>1987 <span> to </span> 2012</i></h2>
+                    </figcaption>
+                  </figure>
+                </a>
+                <a href="static/img1/m_5.png">
+                  <figure class="effect-honey tm-gallery-item">
+                    <img src="static/img1/m_5.png" alt="Image" style="border-radius: 3px; border: 3px solid rgb(228, 96, 96);" height="160" width="310">
+                    <figcaption>
+                      <h2><i>2012 <span> to </span> today</i></h2>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+            </div>                
+          </div>        
+        </div>
+      </div>
+    </section>
+  
+    {% load static %}
+
+    <!-- template.html -->
+
+  </section>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+  <script src="static/js1/jquery-1.9.1.min.js"></script>
+  <script src="static/slick/slick.min.js"></script>
+  <script src="static/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="static/js1/jquery.singlePageNav.min.js"></script>
+  <script src="static/js1/bootstrap.min.js"></script>
+  <script src="static/scss/imgs1.js"></script>
+
+  <script>
+
+    function getOffSet() {
+      var _offset = 450;
+      var windowHeight = window.innerHeight;
+
+      if (windowHeight > 500) {
+        _offset = 400;
+      }
+      if (windowHeight > 680) {
+        _offset = 300
+      }
+      if (windowHeight > 830) {
+        _offset = 210;
+      }
+
+      return _offset;
+    }
+
+    function setParallaxPosition($doc, multiplier, $object) {
+      var offset = getOffSet();
+      var from_top = $doc.scrollTop(),
+        bg_css = 'center ' + (multiplier * from_top - offset) + 'px';
+      $object.css({ "background-position": bg_css });
+    }
+
+    // Parallax function
+    // Adapted based on https://codepen.io/roborich/pen/wpAsm        
+    var background_image_parallax = function ($object, multiplier, forceSet) {
+      multiplier = typeof multiplier !== 'undefined' ? multiplier : 0.5;
+      multiplier = 1 - multiplier;
+      var $doc = $(document);
+      // $object.css({"background-attatchment" : "fixed"});
+
+      if (forceSet) {
+        setParallaxPosition($doc, multiplier, $object);
+      } else {
+        $(window).scroll(function () {
+          setParallaxPosition($doc, multiplier, $object);
+        });
+      }
+    };
+
+    var background_image_parallax_2 = function ($object, multiplier) {
+      multiplier = typeof multiplier !== 'undefined' ? multiplier : 0.5;
+      multiplier = 1 - multiplier;
+      var $doc = $(document);
+      $object.css({ "background-attachment": "fixed" });
+      $(window).scroll(function () {
+        var firstTop = $object.offset().top,
+          pos = $(window).scrollTop(),
+          yPos = Math.round((multiplier * (firstTop - pos)) - 186);
+
+        var bg_css = 'center ' + yPos + 'px';
+
+        $object.css({ "background-position": bg_css });
+      });
+    };
+
+    $(function () {
+      // Hero Section - Background Parallax
+      background_image_parallax($(".tm-parallax"), 0.30, false);
+      background_image_parallax_2($("#contact"), 0.80);
+
+      // Handle window resize
+      window.addEventListener('resize', function () {
+        background_image_parallax($(".tm-parallax"), 0.30, true);
+      }, true);
+
+      // Detect window scroll and update navbar
+      $(window).scroll(function (e) {
+        if ($(document).scrollTop() > 120) {
+          $('.tm-navbar').addClass("scroll");
+        } else {
+          $('.tm-navbar').removeClass("scroll");
+        }
+      });
+
+      // Close mobile menu after click 
+      $('#tmNav a').on('click', function () {
+        $('.navbar-collapse').removeClass('show');
+      })
+
+      // Scroll to corresponding section with animation
+      $('#tmNav').singlePageNav();
+
+      // Add smooth scrolling to all links
+      // https://www.w3schools.com/howto/howto_css_smooth_scroll.asp
+      $("a").on('click', function (event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+          var hash = this.hash;
+
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 400, function () {
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+
+      // Pop up
+      $('.tm-gallery').magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        gallery: { enabled: true }
+      });
+
+      // Gallery
+      $('.tm-gallery').slick({
+        dots: true,
+        infinite: false,
+        slidesToShow: 5,
+        slidesToScroll: 2,
+        responsive: [
+          {
+            breakpoint: 1199,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 991,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      });
+    });
+  </script>
+</body>
+
+</html>

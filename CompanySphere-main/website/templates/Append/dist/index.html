@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>CompanySphere</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" href="static/favicon_io/favicon.png">
+  <link href="static/img/favicon.png" rel="icon" sizes="16x16"  type="image/png">
+  <link href="static/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="static/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="static/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="static/css/main.css" rel="stylesheet">
+  <style>
+    .client-logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100px; /* Adjust height as needed */
+    }
+
+    .client-logo img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 20px; /* Adjust the gap between icons */
+      margin-top: 20px;
+  }
+
+  .social-links a {
+      color: #000; /* Change to the desired color */
+      font-size: 24px; /* Adjust the size of the icons */
+      text-decoration: none;
+      transition: color 0.3s;
+  }
+
+  .social-links a:hover {
+      color: #007bff; /* Change to the desired hover color */
+  }
+  </style>
+  
+</head>
+
+<body class="index-page" data-bs-spy="scroll" data-bs-target="#navmenu">
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1>CompanySphere</h1>
+        <span>.</span>
+      </a>
+
+      <!-- Nav Menu -->
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html#hero" class="active">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#services">Companys</a></li>
+          <li><a href="index.html#portfolio">Portfolio</a></li>
+          <li><a href="index.html#team">CEO'S</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav><!-- End Nav Menu -->
+
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- Hero Section - Home Page -->
+    <section id="hero" class="hero">
+
+      <img src="static/img/hero-bg.jpg" alt="" data-aos="fade-in">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10">
+            <h2 data-aos="fade-up" data-aos-delay="100">Welcome to Our Website</h2>
+            <p data-aos="fade-up" data-aos-delay="200">"Discover the heartbeat of global business. Where every company tells a story, and every story shapes the world."</p>
+          </div>
+          
+        </div>
+      </div>
+
+    </section><!-- End Hero Section -->
+
+    <!-- Clients Section - Home Page -->
+    <section id="clients" class="clients">
+
+      <div class="container-fluid" data-aos="fade-up">
+        <div class="row gy-4">
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <i class="bi bi-google"></i><p>Google</p>
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <i class="bi bi-microsoft"></i><p>MICROSOFT</p>
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <i class="bi bi-text-paragraph"></i><p>IBM</p>
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <i class="bi bi-flower3"></i><p>WIPRO</p>
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <i class="bi bi-align-top"></i><p>TCS</p>
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-2 col-md-3 col-6 client-logo">
+            <i class="bi bi-asterisk"></i><p>WALMART</p>
+          </div><!-- End Client Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- End Clients Section -->
+
+    <!-- About Section - Home Page -->
+    <section id="about" class="about">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row align-items-xl-center gy-5">
+
+          <div class="col-xl-5 content">
+            <h2>About Us</h2>
+            <h4><i>Welcome to CompanySphere, your ultimate guide to top companies worldwide</i></h4>
+            <p> We bring you comprehensive insights into the industry leaders, covering their origins, missions, global footprint, flagship products, notable achievements, and the essence of their corporate culture. <br>Discover career opportunities, internship programs, latest news, and upcoming events straight from the heart of these influential organizations. <br>Whether you're a job seeker, a student exploring internship options, or simply curious about the companies shaping today's world, CompanySphere is your go-to resource for detailed and up-to-date information..</p>
+          </div>
+
+          <div class="col-xl-7">
+            <div class="row gy-4 icon-boxes">
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon-box">
+                  <i class="bi bi-buildings"></i>
+                  <h3>Company Overviews</h3>
+                  <p>In-depth introductions to the founding year, founders, and core business areas.
+                    Mission</p>
+                </div>
+              </div> <!-- End Icon Box -->
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box">
+                  <i class="bi bi-clipboard-pulse"></i>
+                  <h3>Culture and Values</h3>
+                  <p>A look at the work environment, core values, and employee benefits that define the company culture.</p>
+                </div>
+              </div> <!-- End Icon Box -->
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box">
+                  <i class="bi bi-command"></i>
+                  <h3>Latest News and Events</h3>
+                  <p>Stay informed with the latest news articles, press releases, upcoming events, product launches, and industry conferences.</p>
+                </div>
+              </div> <!-- End Icon Box -->
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="bi bi-graph-up-arrow"></i>
+                  <h3>Career Opportunities</h3>
+                  <p> Updated listings of job openings, career paths, and internship programs for students and graduates.</p>
+                </div>
+              </div> <!-- End Icon Box -->
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- End About Section -->
+
+
+    <!-- Services Section - Home Page -->
+    <section id="services" class="services">
+
+      <!--  Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Companys</h2>
+        <p>Explore the leaders in global business and discover their stories, innovations, and impact</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-google"></i></div>
+              <div>
+                <h4 class="title"><a href="google.html" class="stretched-link">GOOGLE</a></h4>
+                <p class="description">"Google:It isn't just a search engine; it's a gateway to the universe of knowledge, where every query ignites a journey of discovery."</p>
+              </div>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-microsoft"></i></div>
+              <div>
+                <h4 class="title"><a href="microsoft.html" class="stretched-link">MICRO SOFT</a></h4>
+                <p class="description">"Microsoft: Where innovation thrives, shaping the digital landscape one breakthrough at a time."</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"> <i class="bi bi-text-paragraph"></i></div>
+              <div>
+                <h4 class="title"><a href="ibm.html" class="stretched-link">IBM</a></h4>
+
+                <p class="description">"IBM: From cloud computing to blockchain, unlocking the potential of technology to solve the world's most complex challenges."</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-flower3"></i></div>
+
+              <div>
+                <h4 class="title"><a href="wipro.html" class="stretched-link">WIPRO</a></h4>
+                <p class="description">"Wipro: From cloud computing to cybersecurity, unlocking the power of technology to create a brighter, more connected future."</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-align-top"></i></div>
+              <div>
+                <h4 class="title"><a href="tcs.html" class="stretched-link">TCS</a></h4>
+                <p class="description">"TCS:Behind every line of code lies a world of innovation—TCS's commitment to technology reshapes industries and drives digital transformation."</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="bi bi-asterisk"></i></i></div>
+              <div>
+                <h4 class="title"><a href="walmart.html" class="stretched-link">WALMART</a></h4>
+                <p class="description">"Walmart: From e-commerce to AI-driven logistics, pioneering technology to redefine what's possible in retail and beyond."</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- End Services Section -->
+
+    
+    <!-- Portfolio Section - Home Page -->
+    <section id="portfolio" class="portfolio">
+
+      <!--  Section Title -->
+      {% load static %}
+<div class="container section-title" data-aos="fade-up">
+    <h2>Portfolio</h2>
+    <p>Visualize the essence of industry giants through our curated company portfolio</p>
+</div><!-- End Section Title -->
+
+<div class="container">
+
+    <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+        <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">Products</li>
+            <li data-filter=".filter-product">Service</li>
+            <li data-filter=".filter-branding">Retail</li>
+        </ul><!-- End Portfolio Filters -->
+
+        <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                <img src="{% static 'img/google1.jpg' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                    <h4>Products 1</h4>
+                    <p>GOOGLE</p>
+                    <a href="{% static 'img/google1.jpg' %}" title="Product 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="https://about.google/" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                <img src="{% static 'img/tcs1.jpg' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                    <h4>Services 1</h4>
+                    <p>TCS</p>
+                    <a href="{% static 'img/tcs1.jpg' %}" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="https://www.tcs.com/" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                <img src="{% static 'img/walmart.jpg' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                    <h4>Retail 1</h4>
+                    <p>WALMART</p>
+                    <a href="{% static 'img/walmart.jpg' %}" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="https://www.walmart.com/" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                <img src="{% static 'img/microsoft.jpg' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                    <h4>Products 2</h4>
+                    <p>Microsoft</p>
+                    <a href="{% static 'img/microsoft.jpg' %}" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="https://www.microsoft.com/en-us/about/company" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                <img src="{% static 'img/ibm.jpg' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                    <h4>Services 2</h4>
+                    <p>IBM</p>
+                    <a href="{% static 'img/ibm.jpg' %}" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="https://www.ibm.com/in-en" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                <img src="{% static 'img/amazon.jpg' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                    <h4>Retails 2</h4>
+                    <p>AMAZON</p>
+                    <a href="{% static 'img/amazon.jpg' %}" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="https://www.aboutamazon.com/about-us" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                <img src="{% static 'img/flipkart.jpg' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                    <h4>Products 3</h4>
+                    <p>FLIPKART</p>
+                    <a href="{% static 'img/flipkart.jpg' %}" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="https://corporate.flipkart.net/about-us" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                <img src="{% static 'img/accenture.jpg' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                    <h4>Services 3</h4>
+                    <p>ACCENTURE</p>
+                    <a href="{% static 'img/accenture.jpg' %}" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="https://www.accenture.com/in-en/about/company-index" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                <img src="{% static 'img/apple.jpg' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                    <h4>Retails 3</h4>
+                    <p>APPLE</p>
+                    <a href="{% static 'img/apple.jpg' %}" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="https://www.apple.com/in/" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+            </div><!-- End Portfolio Item -->
+
+        </div><!-- End Portfolio Container -->
+
+    </div>
+
+</div>
+
+</section><!-- End Portfolio Section -->
+
+
+          
+    <!-- Faq Section - Home Page -->
+    <section id="faq" class="faq">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="content px-xl-5">
+              <h3><span>Frequently Asked </span><strong>Questions</strong></h3>
+              <p>Here, you will find answers to common queries about the top companies featured on our website.<br> Whether you're looking for information on company history, products and services, career opportunities, or recent news.<br>our FAQ section is designed to provide you with the information you need quickly and efficiently. </p>
+            </div>
+          </div>
+
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="faq-container">
+              <div class="faq-item faq-active">
+                <h3><span class="num">1.</span> <span>What are the main products and services offered by these companies?
+                </span></h3>
+                <div class="faq-content">
+                  <p><b>Google:</b> Google offers products like Search, Gmail, Android, Google Cloud, and hardware like Pixel phones.<br>
+                    <b>Microsoft:</b> Microsoft provides products like Windows OS, Office Suite, Azure cloud services, and hardware like Surface devices.<br>
+                    <b>IBM:</b> IBM specializes in cloud computing (IBM Cloud), AI (Watson), and enterprise solutions like blockchain and cybersecurity.<br>
+                    <b>TCS (Tata Consultancy Services):</b> TCS offers IT services, consulting, and business solutions across various industries.<br>
+                    <b>Walmart:</b> Walmart operates as a retail corporation offering groceries, general merchandise, and online e-commerce services.<br>
+                    <b>Wipro:</b> Wipro provides IT consulting, business process services, and digital transformation solutions.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span class="num">2.</span> <span>What is the history and founding story behind each of these companies?
+                </span></h3>
+                <div class="faq-content">
+                  <p>
+                    <b>Google:</b> Founded by Larry Page and Sergey Brin in 1998, initially as a search engine.<br>
+                    <b>Microsoft:</b> Founded by Bill Gates and Paul Allen in 1975, pioneering software development.<br>
+                    <b>IBM:</b> Founded in 1911 as the Computing-Tabulating-Recording Company (CTR), later renamed IBM in 1924.<br>
+                    <b>TCS (Tata Consultancy Services):</b> Established in 1968 as a division of Tata Sons Limited.<br>
+                    <b>Walmart:</b> Founded by Sam Walton in 1962 as a discount department store.<br>
+                    <b>Wipro:</b> Founded by M.H. Premji in 1945, initially as Western India Vegetable Products Limited.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span class="num">3.</span> <span>How do these companies contribute to innovation and lead in their respective industries?
+
+                </span></h3>
+                <div class="faq-content">
+                  <p><b>Google:</b> Innovates in AI, machine learning, and cloud computing.<br>
+                    <b>Microsoft:</b> Innovates in software, cloud services (Azure), and hardware (Surface).<br>
+                    <b>IBM:</b> Leads in enterprise solutions, AI research (Watson), and blockchain technology.<br>
+                    <b>TCS (Tata Consultancy Services):</b> Innovates in IT services, digital solutions, and consulting.<br>
+                    <b>Walmart:</b> Innovates in retail technology, supply chain management, and e-commerce.<br>
+                    <b>Wipro:</b>Innovates in IT services, digital transformation, and business process outsourcing.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span class="num">4.</span> <span>How do these companies engage in corporate social responsibility (CSR) activities?
+
+                </span></h3>
+                <div class="faq-content">
+                  <p><b>Google:</b> Focuses on sustainability, renewable energy, and community development through Google.org.<br>
+                    <b>Microsoft:</b> Invests in education, digital skills training, and environmental sustainability.<br>
+                    <b>IBM:</b> Emphasizes diversity and inclusion, environmental sustainability, and ethical AI development.<br>
+                    <b>TCS (Tata Consultancy Services):</b> Supports education, healthcare, and community development initiatives globally.<br>
+                    <b>Walmart:</b>Addresses social issues, environmental sustainability, and community welfare through Walmart Foundation.<br>
+                    <b>Wipro:</b> Promotes education, healthcare, and environmental sustainability through Wipro Cares initiatives..</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span class="num">5.</span> <span>What are some key achievements or milestones these companies have reached?
+                </span></h3>
+                <div class="faq-content">
+                  <p><b>Google:</b> Development of Android OS, Google Maps, and significant advancements in AI.<br>
+                    <b>Microsoft:</b> Creation of Windows OS, Office Suite dominance, and cloud computing leadership with Azure.<br>
+                    <b>IBM:</b> Development of mainframe computers, Watson AI, and contributions to the IT industry.<br>
+                    <b>TCS (Tata Consultancy Services):</b> Leading global IT services provider, with significant digital transformation projects.<br>
+                    <b>Walmart:</b> Global retail expansion, pioneering supply chain management, and e-commerce growth.<br>
+                    <b>Wipro:</b> Expansion into global markets, strategic acquisitions, and technology partnerships.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- End Faq Section -->
+
+    <!-- Team Section - Home Page -->
+    <section id="team" class="team">
+
+      <!--  Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>CEO'S</h2>
+        <p>A CEO is known by the company he reaps. The real power of a leader is in the number of minds he can reach, hearts he can touch, souls he can move, and lives he can change.
+        </p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-5">
+
+          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
+            <div class="member-img">
+              <img src="static/img/team/team-7.jpg" class="img-fluid" alt="" style="width: 500px; height: 250px;">
+
+              <div class="social">
+                
+                <a href="https://www.instagram.com/sundarpichai?igsh=ajNseXk4NGxjZXhj"><i class="bi bi-instagram"></i></a>
+              </div>
+            </div>
+            <div class="member-info text-center">
+              <h4>Pichai Sundararajan   </h4>
+              <span>CEO OF THE GOOGLE</span>
+              <p>“As a leader, It is important to not just see your own success, but focus on the success of others.”</p>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
+            <div class="member-img">
+              <img src="static/img/team/team-88.jpg" class="img-fluid" alt="" style="width: 500px; height: 250px;">
+
+              <div class="social">
+                
+                <a href="https://www.instagram.com/satyanadella?igsh=MWw3bGl5enV2NjZ4bA=="><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/satyanadella?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info text-center">
+              <h4>Satya Narayana Nadella</h4>
+              <span>CEO OF MICROSOFT</span>
+              <p>S "Finally, I truly believe that each of us must find meaning in our work. The best work happens when you know that it's not just work, but something that will improve other people's lives."</p>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
+            <div class="member-img">
+              <img src="static/img/team/team-9.jpg" class="img-fluid" alt=""style="width: 500px; height: 250px;">
+              <div class="social">
+                
+                <a href="https://www.linkedin.com/in/arvindkrishna?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info text-center">
+              <h4>Arvind Krishna</h4>
+              <span>CEO-IBM      </span>
+              <p>
+               " I believe we can make IBM the most trusted technology partner of the 21st century...Character is of the utmost importance."
+              </p>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="400">
+            <div class="member-img">
+              <img src="static/img/team/team-10.jpg" class="img-fluid" alt="" style="width: 500px; height: 250px;">
+              <div class="social">
+                
+                <a href="https://www.linkedin.com/in/thierry-delaporte?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info text-center">
+              <h4>Thierry Delaporte   </h4>
+              <span> CEO-WIPRO</span>
+              <p>"Attrition higher than what we’d like it to be
+                No comfort in the fact that this is not specific to Wipro
+                Working on ways to reduce attrition
+                Prepared that it will take some quarters before situation improves"</p>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="500">
+            <div class="member-img">
+              <img src="static/img/team/team-111.jpg" class="img-fluid" alt="" style="width: 500px; height: 250px;">
+              <div class="social">
+                
+                <a href="https://www.linkedin.com/in/k-krithivasan-84659325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info text-center">
+              <h4>k krithivasan</h4>
+              <span>CEO-TCS</span>
+              <p>'The more we automate, the more work will come'</p>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
+            <div class="member-img">
+              <img src="static/img/team/team-12.jpg" class="img-fluid" alt=""style="width: 500px; height: 250px;" >
+              <div class="social">
+                <a href="https://m.facebook.com/dougmcmillon"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/dougmcmillon?igsh=MjltNmF2djdsMGdo"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/dougmcmillon?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info text-center">
+              <h4>Doug McMillon</h4>
+              <span>CEO-WALMART    </span>
+              <p>“Deciding to listen with open ears and an open heart brings us together. We need to seek to really understand each other. We need to demonstrate empathy. If we can make these individual connections, we can strengthen our communities and nation.”</p>
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+
+      </div>
+
+    </section><!-- End Team Section -->
+
+    
+    
+    <!-- Contact Section - Home Page -->
+    <section id="contact" class="contact">
+
+      <!--  Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>For more details,Please do contact:</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+
+            <div class="row gy-4">
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="200">
+                  <i class="bi bi-geo-alt"></i>
+                  <h3>Address</h3>
+                  <p>BHIMAVARAM</p>
+                  <p>WEST GODAVARI</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="300">
+                  <i class="bi bi-telephone"></i>
+                  <h3>Call Us</h3>
+                  <p>+91 8125916915</p>
+                  <p>+91 9390092466</p>
+                </div>
+              </div><!-- End Info Item -->
+              <center>
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="400">
+                  <i class="bi bi-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p>mounika2808m@gmail.com</p>
+                  <p>nehaneha7898@gmail.com</p>
+                </div>
+              </div><!-- End Info Item -->
+            </center>
+              <!-- End Info Item -->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- End Contact Section -->
+
+  </main>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span>CompanySphere</span>
+          </a>
+          <p>Journey through the heart of global enterprises. Each business’s saga contributes to shaping our world.</p>
+          <div class="social-links text-center">
+            <a href="https://wa.me/qr/WMA6QLQ6M5M6F1" class="twitter"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://www.instagram.com/m_nneha?igsh=c2JuMWRpNjBycGpw" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://github.com/MadathalaMounika" class="google-plus"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/mounika-madathala-07505a231/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Useful Links</h4>
+          <nav id="navmenu" class="navmenu">
+              <h6><a href="index.html#hero" >Home</a></h6>
+              <h6><a href="index.html#about">About</a></h6>
+              <h6><a href="index.html#services">Companys</a></h6>
+              <h6><a href="index.html#portfolio">Portfolio</a></h6>
+              <h6><a href="index.html#team">CEO'S</a></h6>
+              <h6><a href="index.html#contact">Contact</a></h6>
+    
+            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+          </nav><!-- End Nav Menu -->
+        </div>
+
+        
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contact Us</h4>
+          <p>BHIMAVARAM</p>
+          <p>WEST GODAVARI</p>
+          <p>AP</p>
+          <p class="mt-4"><strong>Phone:</strong> <span>+91 9390092466</span></p>
+          <p class="mt-4"><strong>Phone:</strong> <span>+91 8125916915</span></p>
+          <p><strong>Email:</strong> <span>mounikamadathala1728@gmail.com</span></p>
+
+          <p><strong>Email:</strong> <span>nehaneha7898@gmail.com</span></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>&copy; <span>Copyright</span> <strong class="px-1"></strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        Designed by <a href="NEHA">NEHA &amp; Mounika</a>
+      </div>
+    </div>
+
+  </footer><!-- End Footer -->
+
+  <!-- Scroll Top Button -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <!-- Vendor JS Files -->
+  <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="static/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="static/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="static/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="static/vendor/aos/aos.js"></script>
+  <script src="static/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="static/js/main.js"></script>
+
+</body>
+
+</html>

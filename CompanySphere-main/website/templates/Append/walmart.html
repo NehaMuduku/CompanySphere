@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="static/img/favicon.png" rel="icon" sizes="16x16" type="image/png">
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>MICROSOFT</title>
+  <link rel="stylesheet" href="static/fontawesome-5.5/css2/all.min.css" />
+  <link rel="stylesheet" href="static/slick/slick.css">
+  <link rel="stylesheet" href="static/slick/slick-theme.css">
+  <link rel="stylesheet" href="static/magnific-popup/magnific-popup.css">
+  <link rel="stylesheet" href="static/css1/bootstrap.min.css" />
+  <link rel="stylesheet" href="static/css1/templatemo-style.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+
+  <link href="static/img/favicon.png" rel="icon" sizes="16x16" type="image/png">
+  <link href="static/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="static/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="static/vendor/aos/aos.css" rel="stylesheet">
+  <style>
+    
+    .section-title {
+      color: rgb(199, 71, 71);
+      font-weight: bold;
+      margin-top: 20px;
+      /* Space before each section title */
+    }
+
+    .section-content {
+      margin-bottom: 20px;
+      /* Space after each section content */
+    }
+    
+      /* Reset styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+  
+      body {
+        font-family: 'Arial', sans-serif;
+        line-height: 1.6;
+        background-color: #f8f9fa;
+        color: #292727;
+      }
+  
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+  
+      /* Navigation bar styles */
+      .navbar {
+        background-color: #333;
+        color: #fff;
+        overflow: hidden;
+      }
+  
+      .navbar a {
+        float: left;
+        display: block;
+        color: #fff;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+        font-size: 18px;
+      }
+  
+      .navbar a:hover {
+        background-color: #555;
+      }
+  
+      /* Hero section styles */
+      .hero {
+        background-color: #fff;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        margin-bottom: 40px;
+        text-align: center;
+      }
+  
+      .hero h1 {
+        font-size: 36px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 20px;
+      }
+  
+      .hero p {
+        font-size: 18px;
+        color: #666;
+        line-height: 1.8;
+      }
+  
+      .logo {
+        display: block;
+        margin: 0 auto;
+        border-radius: 10px;
+        border: 5px solid #e74c3c;
+        margin-bottom: 20px;
+        width: 300px; /* Adjust the width as needed */
+        height: auto; /* Maintain aspect ratio */
+      }
+  
+      /* Color list styles */
+      .color-list {
+        list-style: none;
+        padding-left: 0;
+        margin-left: 0.5cm;
+      }
+  
+      .color-list li {
+        background-color: #f0f0f0;
+        border: 1px solid #ddd;
+        padding: 15px;
+        margin-bottom: 10px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        color: #555;
+      }
+  
+      .color-list li:first-child {
+        margin-top: 0;
+      }
+  
+      .color-list li:last-child {
+        margin-bottom: 0;
+      }
+  
+      /* Section title styles */
+      .section-title {
+        font-size: 28px;
+        font-weight: bold;
+        color: #e74c3c;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+  
+      /* Content container styles */
+      .content-container {
+        margin-bottom: 20px;
+      }
+  
+      .content-container p {
+        margin-bottom: 10px;
+      }
+      .navbar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+        z-index: 1000;
+      }
+      .social-media-links {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+      }
+      .social-media-links li {
+        margin: 0 10px;
+      }
+      .social-media-links a {
+        color: #333;
+        font-size: 24px;
+        text-decoration: none;
+      }
+      .social-media-links a:hover {
+        color: #007bff;
+      }
+      .tm-section-pad-top {
+        padding-top: 20px;
+      }
+      .tm-container-gallery {
+        padding: 0 15px;
+      }
+      .tm-gallery-container {
+        margin: 0 auto;
+        padding: 0;
+      }
+      .tm-gallery-item {
+        margin-bottom: 10px;
+      }
+      .effect-honey img {
+        display: block;
+        margin: 0 auto;
+      }
+      .tm-gallery-item figcaption {
+        text-align: center;
+      }
+  
+  </style>
+
+  <!--
+	The Town
+	https://templatemo.com/tm-525-the-town
+	-->
+</head>
+
+<body>
+  <!-- Hero section -->
+
+
+ <!-- Navigation bar -->
+ <div class="navbar">
+  <a href="#introduction">Introduction</a>
+  <a href="#Mission">Mission and Vision</a>
+  <a href="#location">Location</a>
+  <a href="#global">Global Presence</a>
+  <a href="#pands">Services</a>
+  <a href="#innovations">Innovation</a>
+  <a href="#env">Culture</a>
+  <a href="#news">Updates</a>
+  <a href="#contact">contact</a>
+</div>
+
+<div class="container">
+  <!-- Hero section -->
+  <div class="hero">
+    <br>
+    <br>
+    <br>
+    
+    <h1>The Walmart</h1>
+    <p>LOGO</p>
+    <img style="height:200px;width:500px;" src="static/img/blog/walmart.png" class="logo" />
+    <p>The Walmart logo is globally recognized and signifies Walmart's leadership in retail and its commitment to serving customers worldwide. It embodies Walmart's core values of affordability, accessibility, and community engagement.</p>
+    <li class="color-list">
+      <li>Blue Color: The blue color in the Walmart logo represents trust, reliability, and professionalism. It reinforces Walmart's commitment to providing quality products and services.</li>
+
+       <li> Yellow Spark: The yellow spark symbolizes innovation, inspiration, and customer satisfaction. It reflects Walmart's dedication to offering value and creating a positive shopping experience.</li>
+    </ul>
+  </div>
+
+</div>
+
+  </section>
+  <section id="introduction" class="tm-section-pad-top">
+    <div class="container">
+
+      <div>
+        <center><h2 class="tm-text-primary mb-4 tm-section-title" style="color:rgb(179, 73, 73)"><b>Introduction</b></h2></center>
+        <p class="mb-4 tm-intro-text">
+    
+          {% for walmart in data %}
+          <div class="content-container" style="margin-bottom: 20px;">
+            <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.section1 }}</h5>
+            <p style="text-align: center;">{{ walmart.details1}}</p>
+          </div>
+          {% endfor %}
+          {% for walmart in data %}
+          <div class="content-container" style="margin-bottom: 20px;">
+            <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.section2 }}</h5>
+            <p style="text-align: center;">{{ walmart.details2}}</p>
+          </div>
+          {% endfor %}
+          {% for walmart in data %}
+          <div class="content-container" style="margin-bottom: 20px;">
+            <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.section3 }}</h5>
+            <p style="text-align: center;">{{ walmart.details3}}</p>
+          </div>
+          {% endfor %}
+          {% for walmart in data %}
+          <div class="content-container" style="margin-bottom: 20px;">
+            <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.section4 }}</h5>
+            <p style="text-align: center;">{{ walmart.details4}}</p>
+          </div>
+          {% endfor %}
+          {% for walmart in data %}
+          <div class="content-container" style="margin-bottom: 20px;">
+            <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.section5 }}</h5>
+            <p style="text-align: center;">{{ walmart.details5}}</p>
+          </div>
+          {% endfor %}
+        </div>
+        </p>
+      </div>
+    </div>
+    </div>
+    
+  </section>
+  <section id="Mission" class="tm-section-pad-top">
+    <div class="container">
+      <div>
+        <center><h2 class="tm-text-primary mb-4 tm-section-title" style="color:rgb(179, 73, 73)"><b>Mission and Vision</b></h2></center>
+        <p class="mb-4 tm-intro-text">
+        <div>
+          
+            <p style=" line-height: 1.6; color: #333; margin-bottom: 10px;">To save people money so they can live better
+            </p>
+
+          
+        </div>
+        </p>
+      </div>
+    </div>
+    </div>
+    <div>
+    </div>
+  </section>
+  <section id="location" class="tm-section-pad-top">
+    <div class="container">
+      <div>
+        <center><h2 class="tm-text-primary mb-4 tm-section-title" style="color:rgb(179, 73, 73)"><b>Location of Headquarters</b></h2></center>
+        <p class="mb-4 tm-intro-text">
+        <div>
+          <div class="content-container">
+            <p style=" line-height: 1.6; color: #333; margin-bottom: 20px; text-align: justify;">
+              Bentonville, Arkansas, is a city in northwest Arkansas and is where Walmart was founded by Sam Walton in 1962.<br> The headquarters complex includes office buildings, meeting spaces, and other facilities that support Walmart's operations globally.
+                <br>
+              Walmart Home Office
+              702 SW 8th Street
+              Bentonville, AR 72716-8611
+              United States
+
+
+          </p>
+          
+          </div>
+        </div>
+        </p>
+      </div>
+    </div>
+    </div>
+    
+  </section>
+  <section id="global" class="tm-section-pad-top">
+    <div class="container">
+      <div>
+        <center><h2 class="tm-text-primary mb-4 tm-section-title" style="color:rgb(179,73,73)"><b>Global presence</b></h2></center>
+        <p class="mb-4 tm-intro-text">
+          <h4>Walmart's global footprint supports its retail operations and various business functions across continents, reflecting its role as one of the world's largest retailers.
+
+          </h4>
+          <div>
+            {% for walmart in data %}
+          <div class="content-container" style="margin-bottom: 20px;">
+            <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.region1 }}</h5>
+            <p style="text-align: center;">{{ walmart.locations1}}</p>
+          </div>
+          {% endfor %}
+          </div>
+          <div>
+            {% for walmart in data %}
+          <div class="content-container" style="margin-bottom: 20px;">
+            <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.region2 }}</h5>
+            <p style="text-align: center;">{{ walmart.locations2}}</p>
+          </div>
+          {% endfor %}
+          </div>
+          <div>
+            {% for walmart in data %}
+          <div class="content-container" style="margin-bottom: 20px;">
+            <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.region3 }}</h5>
+            <p style="text-align: center;">{{ walmart.locations3}}</p>
+          </div>
+          {% endfor %}
+          </div>
+          <div>
+            {% for walmart in data %}
+          <div class="content-container" style="margin-bottom: 20px;">
+            <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.region4 }}</h5>
+            <p style="text-align: center;">{{ walmart.locations4}}</p>
+          </div>
+          {% endfor %}
+          </div>
+          <div>
+            {% for walmart in data %}
+          <div class="content-container" style="margin-bottom: 20px;">
+            <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.region5 }}</h5>
+            <p style="text-align: center;">{{ walmart.locations5}}</p>
+          </div>
+          {% endfor %}
+          </div>
+      </div>
+      </p>
+    </div>
+    </div>
+    
+  </section>
+  <section id="pands" class="tm-section-pad-top">
+    <div>
+        <h2 class="tm-text-primary mb-4 tm-section-title" style="color: rgb(179,73,73); margin-bottom: 20px;"><b>Products and services:</b></h2>
+        <div style="line-height: 1.6; color: #333; margin-bottom: 20px;">
+          Walmart's extensive product range and services cater to a wide range of consumer needs, combining physical retail with e-commerce and technological innovations to enhance customer experiences globally.
+
+          <div>
+            {% for walmart in data %}
+          <div class="content-container" style="margin-bottom: 20px;">
+            <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category11 }}</h5>
+            <p style="text-align: center;">{{ walmart.description11}}</p>
+          </div>
+          {% endfor %}
+          {% for walmart in data %}
+          <div class="content-container" style="margin-bottom: 20px;">
+            <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category12 }}</h5>
+            <p style="text-align: center;">{{ walmart.description12}}</p>
+          </div>
+          {% endfor %}
+          {% for walmart in data %}
+          <div class="content-container" style="margin-bottom: 20px;">
+            <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category13 }}</h5>
+            <p style="text-align: center;">{{ walmart.description13}}</p>
+          </div>
+          {% endfor %}
+          {% for walmart in data %}
+          <div class="content-container" style="margin-bottom: 20px;">
+            <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category14 }}</h5>
+            <p style="text-align: center;">{{ walmart.description14}}</p>
+          </div>
+          {% endfor %}
+          {% for walmart in data %}
+          <div class="content-container" style="margin-bottom: 20px;">
+            <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category15 }}</h5>
+            <p style="text-align: center;">{{ walmart.description15}}</p>
+          </div>
+          {% endfor %}
+          {% for walmart in data %}
+          <div class="content-container" style="margin-bottom: 20px;">
+            <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category16 }}</h5>
+            <p style="text-align: center;">{{ walmart.description16}}</p>
+          </div>
+          {% endfor %}
+          {% for walmart in data %}
+          <div class="content-container" style="margin-bottom: 20px;">
+            <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category17}}</h5>
+            <p style="text-align: center;">{{ walmart.description17}}</p>
+          </div>
+          {% endfor %}
+          {% for walmart in data %}
+          <div class="content-container" style="margin-bottom: 20px;">
+            <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category18 }}</h5>
+            <p style="text-align: center;">{{ walmart.description18}}</p>
+          </div>
+          {% endfor %}
+          {% for walmart in data %}
+          <div class="content-container" style="margin-bottom: 20px;">
+            <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category19 }}</h5>
+            <p style="text-align: center;">{{ walmart.description19}}</p>
+          </div>
+          {% endfor %}
+          </div>
+
+        </div>
+
+        
+        </div>
+    </div>
+</section>
+
+
+  <section id="innovations" class="tm-section-pad-top">
+      <div class="container">
+    
+        <h2 class="tm-text-primary mb-4 tm-section-title" style="color: rgb(179,73,73); text-align: center;"><b>Innovations:</b></h2>
+        <div>
+          {% for walmart in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category21 }}</h5>
+          <p style="text-align: center;">{{ walmart.description21}}</p>
+        </div>
+        {% endfor %}
+        {% for walmart in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category22 }}</h5>
+          <p style="text-align: center;">{{ walmart.description22}}</p>
+        </div>
+        {% endfor %}
+        {% for walmart in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category23 }}</h5>
+          <p style="text-align: center;">{{ walmart.description23}}</p>
+        </div>
+        {% endfor %}
+        {% for walmart in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category24 }}</h5>
+          <p style="text-align: center;">{{ walmart.description24}}</p>
+        </div>
+        {% endfor %}
+        {% for walmart in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category25 }}</h5>
+          <p style="text-align: center;">{{ walmart.description25}}</p>
+        </div>
+        {% endfor %}
+        {% for walmart in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category26 }}</h5>
+          <p style="text-align: center;">{{ walmart.description26}}</p>
+        </div>
+        {% endfor %}
+        {% for walmart in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category27}}</h5>
+          <p style="text-align: center;">{{ walmart.description27}}</p>
+        </div>
+        {% endfor %}
+        
+        </div>
+
+</div>
+</section>    
+    <section id="env" class="tm-section-pad-top">
+      <div class="container">
+    
+        <div>
+          <h2 class="tm-text-primary mb-4 tm-section-title" style="color: rgb(179,73,73); text-align: left; margin-bottom: 20px;">Work Environment at Microsoft:</h2>
+    
+
+    
+        <h4 class="tm-text-primary mb-4 tm-section-title" style="color: rgb(199, 71, 71); text-align: left; margin-bottom: 20px;">Work Environment:</h4>
+    
+        <div>
+          {% for walmart in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category28 }}</h5>
+          <p style="text-align: center;">{{ walmart.description28}}</p>
+        </div>
+        {% endfor %}
+        {% for walmart in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category29}}</h5>
+          <p style="text-align: center;">{{ walmart.description29}}</p>
+        </div>
+        {% endfor %}
+        {% for walmart in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category30}}</h5>
+          <p style="text-align: center;">{{ walmart.description30}}</p>
+        </div>
+        {% endfor %}
+        {% for walmart in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category31 }}</h5>
+          <p style="text-align: center;">{{ walmart.description31}}</p>
+        </div>
+        {% endfor %}
+        </div>
+        <h3 class="tm-text-primary mb-4 tm-section-title" style="color: rgb(199, 71, 71); text-align: left; margin-bottom: 20px;">Employee Benefits:</h3>
+    
+        <div>
+          {% for walmart in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category41 }}</h5>
+          <p style="text-align: center;">{{ walmart.description41}}</p>
+        </div>
+        {% endfor %}
+        {% for walmart in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category42}}</h5>
+          <p style="text-align: center;">{{ walmart.description42}}</p>
+        </div>
+        {% endfor %}
+        {% for walmart in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category43}}</h5>
+          <p style="text-align: center;">{{ walmart.description43}}</p>
+        </div>
+        {% endfor %}
+        {% for walmart in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category44 }}</h5>
+          <p style="text-align: center;">{{ walmart.description44}}</p>
+        </div>
+        {% endfor %}
+        </div>
+        <h3 class="tm-text-primary mb-4 tm-section-title" style="color: rgb(199, 71, 71); text-align: left; margin-bottom: 20px;">Core Values:</h3>
+    
+        <div>
+          {% for walmart in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category61 }}</h5>
+          <p style="text-align: center;">{{ walmart.description61}}</p>
+        </div>
+        {% endfor %}
+        {% for walmart in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category62}}</h5>
+          <p style="text-align: center;">{{ walmart.description62}}</p>
+        </div>
+        {% endfor %}
+        {% for walmart in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category63}}</h5>
+          <p style="text-align: center;">{{ walmart.description63}}</p>
+        </div>
+        {% endfor %}
+        {% for walmart in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category64 }}</h5>
+          <p style="text-align: center;">{{ walmart.description64}}</p>
+        </div>
+        {% endfor %}
+        {% for walmart in data %}
+        <div class="content-container" style="margin-bottom: 20px;">
+          <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category65}}</h5>
+          <p style="text-align: center;">{{ walmart.description65}}</p>
+        </div>
+        {% endfor %}
+        </div>
+        
+      </div>
+    </section>
+    
+    
+    
+    <section id="news" class="tm-section-pad-top">
+      <div class="container">
+    
+        <div>
+          <h2 class="tm-text-primary mb-4 tm-section-title" style="color: rgb(179,73,73); margin-bottom: 20px;">Latest News :</h2>
+          <h2 class="tm-text-primary mb-4 tm-section-title" style="color: rgb(179,73,73); margin-bottom: 20px;">Recent News about Walmart</h2>
+          <div>
+            {% for walmart in data %}
+          <div class="content-container" style="margin-bottom: 20px;">
+            <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category71 }}</h5>
+            <p style="text-align: center;">{{ walmart.description71}}</p>
+          </div>
+          {% endfor %}
+          {% for walmart in data %}
+          <div class="content-container" style="margin-bottom: 20px;">
+            <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category72}}</h5>
+            <p style="text-align: center;">{{ walmart.description72}}</p>
+          </div>
+          {% endfor %}
+          {% for walmart in data %}
+          <div class="content-container" style="margin-bottom: 20px;">
+            <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category73}}</h5>
+            <p style="text-align: center;">{{ walmart.description73}}</p>
+          </div>
+          {% endfor %}
+          {% for walmart in data %}
+          <div class="content-container" style="margin-bottom: 20px;">
+            <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category74 }}</h5>
+            <p style="text-align: center;">{{ walmart.description74}}</p>
+          </div>
+          {% endfor %}
+          {% for walmart in data %}
+          <div class="content-container" style="margin-bottom: 20px;">
+            <h5 style="color: rgb(179,73,73); margin-bottom: 10px;">{{ walmart.category75}}</h5>
+            <p style="text-align: center;">{{ walmart.description75}}</p>
+          </div>
+          {% endfor %}
+          </div>
+          
+          
+    
+      </div>
+    </section>
+    <section id="contact" class="text-center">
+      <h1>Walmart Social Media Links</h1>
+      <ul class="social-media-links">
+        <li><a href="https://www.instagram.com/walmart/" target="_blank"><i class="bi bi-instagram"></i></a></li>
+        <li><a href="https://www.facebook.com/walmart/" target="_blank"><i class="bi bi-facebook"></i></a></li>
+        <li><a href="https://twitter.com/Walmart" target="_blank"><i class="bi bi-twitter"></i></a></li>
+        <li><a href="https://www.linkedin.com/company/walmart/" target="_blank"><i class="bi bi-linkedin"></i></a></li>
+        <li><a href="https://www.youtube.com/user/Walmart" target="_blank"><i class="bi bi-youtube"></i></a></li>
+      </ul>
+    </section>
+  
+    <section id="work" class="tm-section-pad-top">
+      <div class="container tm-container-gallery">
+        <div class="row">
+          <div class="text-center col-12">
+            <h2 style="color:rgb(179, 73, 73)">Evolution of Walmart Logo</h2>
+            <p style="color: rgb(26, 25, 25); font-size: 18px; font-family: 'Trebuchet MS', sans-serif;">
+              
+            </p>
+          </div>            
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="mx-auto tm-gallery-container">
+              <div class="grid tm-gallery">
+                <a href="static/img/blog/wa1.png">
+                  <figure class="effect-honey tm-gallery-item">
+                    <img src="static/img/blog/wa1.png" alt="Image" style="border-radius: 3px; border: 3px solid rgb(15, 14, 14);" height="160" width="500">
+                    <figcaption>
+                      <h2><i>1975 <span> to </span> 1979</i></h2>
+                    </figcaption>
+                  </figure>
+                </a>
+                <a href="static/img/blog/wa2.png">
+                  <figure class="effect-honey tm-gallery-item">
+                    <img src="static/img/blog/wa2.png" alt="Image" style="border-radius: 3px; border: 3px solid rgb(15, 14, 14);" height="160" width="310">
+                    <figcaption>
+                      <h2><i>1980 <span> to </span> 1982</i></h2>
+                    </figcaption>
+                  </figure>
+                </a>
+                <a href="static/img/blog/wa3.png">
+                  <figure class="effect-honey tm-gallery-item">
+                    <img src="static/img/blog/wa3.png" alt="Image" style="border-radius: 3px; border: 3px solid rgb(15, 14, 14);" height="160" width="310">
+                    <figcaption>
+                      <h2><i>1980 <span> to </span> 1982</i></h2>
+                    </figcaption>
+                  </figure>
+                </a>
+                <a href="static/img/blog/wa4.png">
+                  <figure class="effect-honey tm-gallery-item">
+                    <img src="static/img/blog/wa4.png" alt="Image" style="border-radius: 3px; border: 3px solid rgb(15, 14, 14);" height="160" width="310">
+                    <figcaption>
+                      <h2><i>1980 <span> to </span> 1982</i></h2>
+                    </figcaption>
+                  </figure>
+                </a>
+                <a href="static/img/blog/walmart.png">
+                  <figure class="effect-honey tm-gallery-item">
+                    <img src="static/img/blog/walmart.png" alt="Image" style="border-radius: 3px; border: 3px solid rgb(15, 14, 14);" height="160" width="310">
+                    <figcaption>
+                      <h2><i>1980 <span> to </span> 1982</i></h2>
+                    </figcaption>
+                  </figure>
+                </a>
+             
+             
+                
+              </div>
+            </div>                
+          </div>        
+        </div>
+      </div>
+    </section> 
+    
+    
+  
+    {% load static %}
+
+    <!-- template.html -->
+
+  </section>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+  <script src="static/js1/jquery-1.9.1.min.js"></script>
+  <script src="static/slick/slick.min.js"></script>
+  <script src="static/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="static/js1/jquery.singlePageNav.min.js"></script>
+  <script src="static/js1/bootstrap.min.js"></script>
+  <script src="static/scss/imgs1.js"></script>
+
+  <script>
+
+    function getOffSet() {
+      var _offset = 450;
+      var windowHeight = window.innerHeight;
+
+      if (windowHeight > 500) {
+        _offset = 400;
+      }
+      if (windowHeight > 680) {
+        _offset = 300
+      }
+      if (windowHeight > 830) {
+        _offset = 210;
+      }
+
+      return _offset;
+    }
+
+    function setParallaxPosition($doc, multiplier, $object) {
+      var offset = getOffSet();
+      var from_top = $doc.scrollTop(),
+        bg_css = 'center ' + (multiplier * from_top - offset) + 'px';
+      $object.css({ "background-position": bg_css });
+    }
+
+    // Parallax function
+    // Adapted based on https://codepen.io/roborich/pen/wpAsm        
+    var background_image_parallax = function ($object, multiplier, forceSet) {
+      multiplier = typeof multiplier !== 'undefined' ? multiplier : 0.5;
+      multiplier = 1 - multiplier;
+      var $doc = $(document);
+      // $object.css({"background-attatchment" : "fixed"});
+
+      if (forceSet) {
+        setParallaxPosition($doc, multiplier, $object);
+      } else {
+        $(window).scroll(function () {
+          setParallaxPosition($doc, multiplier, $object);
+        });
+      }
+    };
+
+    var background_image_parallax_2 = function ($object, multiplier) {
+      multiplier = typeof multiplier !== 'undefined' ? multiplier : 0.5;
+      multiplier = 1 - multiplier;
+      var $doc = $(document);
+      $object.css({ "background-attachment": "fixed" });
+      $(window).scroll(function () {
+        var firstTop = $object.offset().top,
+          pos = $(window).scrollTop(),
+          yPos = Math.round((multiplier * (firstTop - pos)) - 186);
+
+        var bg_css = 'center ' + yPos + 'px';
+
+        $object.css({ "background-position": bg_css });
+      });
+    };
+
+    $(function () {
+      // Hero Section - Background Parallax
+      background_image_parallax($(".tm-parallax"), 0.30, false);
+      background_image_parallax_2($("#contact"), 0.80);
+
+      // Handle window resize
+      window.addEventListener('resize', function () {
+        background_image_parallax($(".tm-parallax"), 0.30, true);
+      }, true);
+
+      // Detect window scroll and update navbar
+      $(window).scroll(function (e) {
+        if ($(document).scrollTop() > 120) {
+          $('.tm-navbar').addClass("scroll");
+        } else {
+          $('.tm-navbar').removeClass("scroll");
+        }
+      });
+
+      // Close mobile menu after click 
+      $('#tmNav a').on('click', function () {
+        $('.navbar-collapse').removeClass('show');
+      })
+
+      // Scroll to corresponding section with animation
+      $('#tmNav').singlePageNav();
+
+      // Add smooth scrolling to all links
+      // https://www.w3schools.com/howto/howto_css_smooth_scroll.asp
+      $("a").on('click', function (event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+          var hash = this.hash;
+
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 400, function () {
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+
+      // Pop up
+      $('.tm-gallery').magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        gallery: { enabled: true }
+      });
+
+      // Gallery
+      $('.tm-gallery').slick({
+        dots: true,
+        infinite: false,
+        slidesToShow: 5,
+        slidesToScroll: 2,
+        responsive: [
+          {
+            breakpoint: 1199,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 991,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      });
+    });
+  </script>
+</body>
+
+</html>
